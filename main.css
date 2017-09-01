@@ -1,0 +1,108 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.bottom_line{
+    border-bottom:1px solid #333333;
+    text-align:center;
+}
+.center{text-align:center;}
+div.page{
+    width:210mm;
+    height:297mm;
+    border:1px solid red;
+    padding:23mm 28mm;
+    position:relative;
+}
+/*内容*/
+.content{
+    font-size:15px;
+    /*border-bottom:2px solid #3a3a3a;*/
+}
+.title_page{
+    text-align:right;
+    padding-right:50px;
+    /*border-top:2px solid #333333;*/
+}
+.times{
+    border-bottom:1px solid #333333;
+    padding:0 6px;
+}
+.title_p{
+    font-weight:bold;
+    text-align:center;
+    font-size:25px;
+    margin:10px 0 20px 0;
+
+}
+.ask_line{
+    text-decoration:line-through;
+}
+.table{
+    margin:10px 0;
+}
+.checkbox{width:16px;height:16px;}
+.page_num{
+    text-align:right;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left:0;
+    padding:0 28mm 23mm 28mm;
+}
+.bottom_p{
+    border-top:2px solid #333333;
+}
+.bold{
+    font-weight:bold;
+}
+.width_10{
+    width:8%;
+}
+.width_5{
+    width:5%;
+}
+.width_15{
+    width:15%;
+}
+.width_site{
+    width:545px;
+}
+.ibk{
+    display:inline-block;
+    padding:0 3px;
+    font-size:14px;
+    font-family:'times';
+}
+.width_name{
+    width:65px;
+}
+.width_job1{
+    width:280px;
+}
+.width_job2{
+    width:402px;
+}
+.width_birthday{
+    width:148px;
+}
+.width_identify{width:300px;}
+.width_address{width:280px;}
+.width_tell{width:185px;}
+.width_home{width:500px;}
+.width_time{width:40px;}
+.width_signature{width:160px;}
+/*word-wrap: break-word;*/
+.ask_answer{
+    line-height:30px;
+}
+.width100{
+    width:100%;
+}
+.font14{
+    font-size:14px;
+}
+li{
+    /*list-style:none;*/
+}
